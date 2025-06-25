@@ -113,7 +113,6 @@ const MainSlider2 = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/20"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/30"></div>
             </div>
-
             {/* Main Content */}
             <div className="relative z-10 h-full w-fu flex items-center">
               <div className="px-[26px] sm:px-[40px] md:px-[80px]">
@@ -122,7 +121,6 @@ const MainSlider2 = () => {
                   <h1 className="text-white font-bold mb-6 leading-none">
                     <img src={movie.title} alt="Movie Title" />
                   </h1>
-
                   {/* Movie Info */}
                   <div className="flex items-center gap-[8px] md:gap-4 mb-6 text-white/80 text-sm lg:text-base">
                     <span className="w-1 h-1 bg-white/60 rounded-full"></span>
@@ -132,12 +130,10 @@ const MainSlider2 = () => {
                     <span className="w-1 h-1 bg-white/60 rounded-full"></span>
                     <span className="font-medium">{movie.genre}</span>
                   </div>
-
                   {/* Description */}
                   <p className="text-white/90 text-sm sm:text-base lg:text-lg leading-relaxed mb-6 max-w-xl">
                     {movie.description}
                   </p>
-
                   {/* Buttons */}
                   <div className="flex justify-start items-center">
                     <button className="group watch-play-btn text-white px-[12px] md:px-11 py-[9px] md:py-3 rounded font-semibold text-[14px] sm:text-[16px] transition-all duration-300 flex items-center gap-[8px] sm:gap-3 shadow-lg hover:shadow-xl">
@@ -151,7 +147,6 @@ const MainSlider2 = () => {
                       <FiPlus />
                     </span>
                   </div>
-
                   <div className="flex flex-col sm:flex-row gap-4">
                     {[2, 4, 5].includes(movie.id) && (
                       <button className="group text-white py-3 rounded font-semibold text-base transition-all duration-300 flex items-center gap-3 shadow-lg hover:shadow-xl sm:mt-[16px]">
