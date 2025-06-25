@@ -1,0 +1,26 @@
+.offcanvas.offcanvas-start {
+  width: 250px !important;
+}
+.css-dip3t8 {
+  background-color: transparent !important;
+}
+
+.css-1t8x7v1 > .ps-menu-button:hover {
+  background-color: transparent !important;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover {
+  -webkit-box-shadow: 0 0 0px 1000px #1f1f1f inset !important;
+  -webkit-text-fill-color: #ffffff !important;
+  caret-color: #ffffff !important;
+  border: 1px solid #ffffff/20;
+}
+@media (max-width: 768px) {
+  .logo {
+    order: 2 !important;
+  }
+  .navbar {
+    order: 1 !important;
+  }
+}

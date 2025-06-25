@@ -1,0 +1,17 @@
+.main-input input {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  height: 44px;
+  color: #a5a5a5;
+  border: 1px solid #afafaf;
+  border-radius: 4px;
+  font-size: 12px;
+  outline: none;
+  transition: 1s;
+}
+.main-input input:hover {
+  border: 1px solid #777777;
+}

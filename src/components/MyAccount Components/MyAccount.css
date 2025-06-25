@@ -1,0 +1,10 @@
+.scrollbar-hide {
+  -ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.delete-otp input{
+  height: 40px !important;
+  width: 40px !important;
+}

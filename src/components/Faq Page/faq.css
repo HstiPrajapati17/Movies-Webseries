@@ -1,0 +1,10 @@
+.faq-section .items-number {
+  height: 30px !important;
+  width: 32px !important;
+}
+@media (min-width: 640px) {
+  .faq-section .items-number {
+    height: 44px !important;
+    width: 47px !important;
+  }
+}

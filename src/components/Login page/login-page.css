@@ -1,0 +1,239 @@
+.login-bg {
+  background: url(./../Assets/Images/login-bg.png);
+  background-size: cover;
+  background-position: 10% 0%;
+  height: 100v;
+  position: relative;
+}
+.login-bg2 {
+  background: url(./../Assets/Images/Sub\ Container\ \(1\).png);
+  background-size: cover;
+  background-position: 10% 0%;
+  height: 100v;
+  position: relative;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+.main-signin input {
+  background-color: #1d1d1d !important;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 12px;
+  padding-bottom: 12px;
+  height: 40px;
+  width: 280px;
+  color: #a5a5a5;
+  border: 0px;
+  font-size: 12px;
+  outline: none;
+  transition: 1s;
+}
+.main-signin input:hover {
+  border: 1px solid #a5a5a5;
+}
+input:focus-visible {
+  outline: none;
+  border: 1px solid #a5a5a5;
+}
+.main-signin .checkbox {
+  height: 13px;
+  width: 13px;
+  background-color: #1d1d1d !important;
+}
+.gradient-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container-bg {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.signin-content {
+  position: absolute;
+  top: 50%;
+  left: 77%;
+  transform: translate(-50%, -50%);
+}
+.login-submit-btn {
+  background: linear-gradient(to right, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  background-position: left center;
+  width: 100%;
+  height: 44px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-position 0.4s ease-in-out;
+}
+.login-submit-btn:hover {
+  background-position: right center;
+}
+.login-page2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.forget-pass .main-bg2 .img1 {
+   background: url(./../Assets/Images/Sub\ Container\ \(1\).png);
+  background-size: cover;
+  background-position: 10% 0%;
+  height: 100v;
+  position: relative;
+}
+.shade1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to bottom, #000, transparent);
+  z-index: -1;
+}
+.shade2{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to top, #000, transparent);
+  z-index: 1;
+}
+.upside-shade::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+/* forget-pass-css */
+
+.forget-pass-content input{
+  width: 380px;
+}
+.forget-pass-content .login-submit-btn{
+  border-radius: 4px;
+}
+.forget-pass .middle-part{
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+.create-ac-content {
+  position: absolute;
+  top: 50%;
+  left: 77%;
+  transform: translate(-50%, -50%);
+}
+.create-ac input {
+  width: auto;
+}
+.create-ac .mob-no input{
+  width: 100%;
+  padding-left: 50px;
+}
+.main-create-ac .content-1{
+  width: 82%;
+}
+.create-ac-content2  .mob-no input{
+  padding-left: 56px;
+}
+.otp-verify input{
+  height: 40px !important;
+  width: 40px !important;
+  margin-right: 12px !important;
+  padding: 8px !important;
+}
+@media (max-width: 992px) {
+  .gradient-bg {
+    width: 750px;
+    height: 600px;
+  }
+  .container-bg {
+    width: auto;
+    height: 600px;
+    left: 36%;
+  }
+  .content-end {
+    margin-top: 60px;
+  }
+  .form-title{
+    margin-bottom: 18px;
+  }
+  .main-create-ac .or-content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .main-create-ac .social-ac-part{
+    margin-bottom: 12px;
+  }
+  .main-create-ac .ac-confirm-btn{
+    margin-top: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .login-page {
+    display: none;
+  }
+  .login-bg {
+    display: none;
+  }
+  .login-page2 {
+    display: block;
+  }
+  .login-bg2 {
+    display: block;
+  }
+  .main-signin input {
+    width: 100%;
+  }
+  .login-page2 {
+    width: 80%;
+  }
+  .form-content .row {
+    margin-left: 0;
+  }
+  .form-content .or-part {
+    margin-left: 0;
+  }
+  .form-content .social-part {
+    justify-content: center;
+    align-items: center;
+  }
+  .forget-pass .middle-part{
+    width: 85%;
+  }
+  .forget-pass .input-part{
+    width: 85%;
+  }
+}
+@media (max-width: 400px) {
+  .login-page2 {
+    padding: 13px;
+  }
+  .main-create-ac .login-page2 {
+    padding: 0px;
+  }
+  .form-content .social-part {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .forget-pass .input-part{
+    width: 100%;
+  }
+  .forget-pass .middle-part{
+    width: 100%;
+  }
+  .otp-verify p{
+    width: 100% !important;
+  }
+}
